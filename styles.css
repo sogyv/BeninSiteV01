@@ -1,0 +1,156 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Comforter', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Ultra', serif;
+
+*/
+h1 {
+  
+    font-size: 80px;
+    margin-block-start: 0.20em;
+    margin-block-end: 0.20em;
+}
+
+h2 {
+  
+    font-size: 50px;
+    margin-block-start: 0.20em;
+    margin-block-end: 0.20em;
+  }
+  
+
+body {
+    min-width: 1200px;
+    margin: 0;
+    text-align: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(202, 103, 67);
+}
+
+img {
+    width: 200px;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 4px red;
+    margin: 20px;
+}
+
+.act_img:hover {
+    width: 210px;
+}
+
+.img-visit1 {
+    /* border: 3px solid green; */
+    box-shadow: 5px 5px 4px rgb(202, 103, 67);
+    /* green; */
+}
+.img-visit1:hover {
+   /* background-color: rgb(88, 114, 88); */
+   box-shadow: -5px -5px 4px green;
+   width: 210px;
+}
+
+/* .img-visit1:hover .ant1{
+    background-color: rgb(90, 88, 114);
+} */
+
+
+#img-box{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    flex-direction:center;
+    justify-content:center;
+
+    margin: 0 50%;
+}
+
+.img-visit2 {
+    /* border: 3px solid yellow; */
+    box-shadow: 5px 5px 4px rgb(202, 103, 67);
+    
+}
+
+.img-visit3 {
+    /* border: 3px solid red; */
+    box-shadow: 5px 5px 4px rgb(202, 103, 67);
+}
+.img-visit2:hover {
+    /* background-color:rgb(134, 134, 96); */
+    box-shadow: -5px -5px 4px yellow;
+    width: 210px;
+}
+
+.img-visit3:hover {
+    /* background-color: rgba(255, 0, 0, 0.171); */
+    box-shadow: -5px -5px 4px red;
+    width: 210px;
+}
+
+#hero_section {
+    background-image: url("images/slave-door2.jpeg");
+    background-size:cover;
+    height: 50em;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(202, 103, 67);
+}
+
+.hero-info {
+    max-width: 500px;
+}
+.hero-info1 {
+    color: white;
+    text-shadow: 0 0 10px rgb(202, 103, 67);
+    /* /* background: linear-gradient(to left, green, yellow , red);   */
+} 
+
+.hero-info2:hover {
+    /* border-bottom: 2px solid rgb(95, 157, 129);
+    text-shadow: 10px red; */
+    /* background: linear-gradient(to left, green, yellow , red);   */
+    text-shadow: 5px 5px 5px rgb(193, 161, 161);
+    
+} 
+
+#underlined {
+    border: 10px solid blue;
+}
+
+.activities_section_title {
+    box-shadow: 0px 5px 5px rgb(193, 161, 161);
+    margin: 10px 0 0px 0;
+    font-size: 25px;
+}
+.links_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-link{
+    padding: 15px;
+    border-radius: 25%;
+    width: 100px;
+    box-shadow: 3px 3px 3px rgb(193, 161, 161);
+}
+.img-link:hover{
+    box-shadow: -3px -3px 3px rgb(193, 161, 161);
+}
